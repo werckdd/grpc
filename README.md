@@ -1,1 +1,1 @@
-*/.DS_Store
+protoc -I . todo.proto --go_out=plugins=grpc:.
